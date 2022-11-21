@@ -1,0 +1,102 @@
+html 
+{
+    height: 100%;
+    background-image: linear-gradient(75deg,#F2E4BB,#ECCECE);
+    margin: 0;
+}
+body
+{
+    height: 100%;
+    margin: 0;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+#header-div
+{
+    height: 20vh;
+}
+header
+{
+    height: 15vh;
+    font-family: 'Fredoka One', cursive;
+    font-size: 70px;
+    padding: 0px;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    margin: 0;
+    width:40vw;
+    float:left;
+    color:#BC798A;
+}
+header:hover
+{
+    color: #B7CACC;
+}
+nav
+{
+    padding-top: 3.7vh;
+    height: 8.5vh;
+    float: right;
+    width: 50vw;
+    font-size: 50px;
+    text-align: right;
+    padding-right: 3vw;
+    color: #BC798A;
+    
+}
+.nav-links:link
+{
+    color:#BC798A;
+    text-decoration: none;
+}
+.nav-links:visited
+{
+    color:#BC798A;
+    text-decoration: none;
+}
+.nav-links:hover
+{
+    color: rgba(74, 47, 54, 0.8);
+    text-decoration: underline;
+}
+footer
+{
+    height: 5%;
+    text-align: center;
+}
+#emaillink
+{
+    text-decoration: none;
+    color: black;
+}
+#home-div
+{
+    height: 73vh;
+    background-color: #613331;
+    margin: 3%;
+    margin-top: 1vh;
+    border-radius: 1%;
+    border: 7px dashed #C8B6C6;
+}
+#profilephoto
+{
+    height: 40%;
+    padding: 1% 1%;
+    float:right;
+}
+#spiel
+{
+    color: white;
+    font-size: 1.6em;
+    padding-left: 50px;
+}
+#resume-div
+{
+    text-align: center;
+    background-color: #613331;
+    padding-top: 1vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border: black 2px solid;
+    color: white;
+    border-radius: 20px;
+}
