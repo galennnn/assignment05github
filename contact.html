@@ -5,9 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Fredoka+One&display=swap" rel="stylesheet">
     <title>Galen Baird</title>
 </head>
 <body>
-    
+    <div id="header-div">
+    <header>
+        <span id="title">Galen Baird</span>
+    </header>
+    <nav><a href="home.html" class="nav-links">Home</a> <b> | </b> <a href="resume.html" class="nav-links">Resume</a> <b> | </b> <a href="favorites.html" class="nav-links">Favorites</a> <b> | </b> <a href="favorites.html" class="nav-links">Contact</a></nav>
+    </div>
+    <form type action="http://cssgate.insttech.washington.edu/~varikmp/csc111/index.php" method="get">
+        <table>
+            <caption>Contact Me!</caption>
+            <tr>
+              <td>Name</td>
+              <td><input type ="text" name="name" class="form-input"></td>
+            </tr>
+            <tr>
+              <td>E-Mail</td>
+              <td><input type ="email" name="email" class="form-input"></td>
+            </tr>
+            <tr>
+              <td><label for="comment">Comment</label></td>
+              <td><input type ="text" id="comment-input" name="comment"></td>
+            </tr>
+        </table>
+        <input type="submit" class="form-input">
+    </form>
+    <footer><a href = "mailto:galensemail@yahoo.com" id="emaillink">galensemail@yahoo.com</a> &copy 2022</footer>
 </body>
 </html>
