@@ -70,7 +70,7 @@ footer
 }
 #home-div
 {
-    height: 73vh;
+    height: 90vh;
     background-color: #613331;
     margin: 3%;
     margin-top: 1vh;
@@ -86,7 +86,7 @@ footer
 #spiel
 {
     color: white;
-    font-size: 1.3vw;
+    font-size: 2.7vh;
     padding-left: 50px;
 }
 #resume-div
@@ -168,8 +168,8 @@ h2
 }
 #vid
 {
-    height: 280px;
-    width: 280px;
+    height: 360px;
+    width: 640px;
 }
 #audio-video-div-container
 {
@@ -199,7 +199,7 @@ caption
 {
     height: 6vh;
     width: 40vw;
-    font-size: 3vw;
+    font-size: 2.7vw;
     border: 0px;
     background-color: rgba(0, 0, 0, 0.3);
 }
